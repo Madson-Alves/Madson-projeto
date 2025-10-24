@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços | Espaço Amanda</title>
+    <link rel="stylesheet" href="parte 3,1 corrigido.css" type="text/css">
+</head>
+<body>
+ <header id="cabeçalho">
+    <nav class="faixaRed">
+      <a href="../menu 4 responsivo.html"><img class="img" src="espaço amanda logo.jpg" height="65px" 
+        width="116px" "></a>
+      <div class="navmenumenor">  
+        <div class="linha1"></div>
+        <div class="linha2"></div>
+        <div class="linha3"></div>
+      </div>
+
+      <ul class="list">
+        <li><a href="../pag 1/pag 1.html">Cabelos</a></li>
+        <li><a href="../pag 2/pag 2.html">Mãos e pés</a></li>
+        <li><a href="pag 3.html">Pelos</a></li>
+        <li><a href="../pag 4/pag 4.html">Massagens e outros</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="container">
+    <div class="CaixaCheckbox">  
+      <h2>Selecione os serviços:</h2>
+      <div class="container-checkbox">
+        <label><input type="checkbox" id="serv24" value="35" class="valor-checkbox"> Depilação Axila R$ 35</label><br>
+        <label><input type="checkbox" id="serv25" value="25" class="valor-checkbox"> Depilação buço R$ 25</label><br>
+        <label><input type="checkbox" id="serv26" value="45" class="valor-checkbox"> Depilação meia-perna (incluso pé) R$ 45</label><br>
+        <label><input type="checkbox" id="serv27" value="55" class="valor-checkbox"> Depilação virilha a partir de R$ 55</label><br>
+        <label><input type="checkbox" id="serv28" value="105" class="valor-checkbox"> Depilação íntima a partir de R$ 105</label><br>
+        <label><input type="checkbox" id="serv29" value="60" class="valor-checkbox"> Sobrancelha design R$ 60</label><br>
+        <label><input type="checkbox" id="serv30" value="70" class="valor-checkbox"> Sobrancelha design na linha R$ 70</label><br>
+        <label><input type="checkbox" id="serv31" value="190" class="valor-checkbox"> Extensão de cilíos a partir de R$ 190</label><br>
+        <label><input type="checkbox" id="serv32" value="255" class="valor-checkbox"> Limpeza de pela com retorno R$ 255</label><br>
+        <label><input type="checkbox" id="serv33" value="185" class="valor-checkbox"> Limpeza de pele sem retorno R$ 185</label><br>
+      </div>
+    </div>
+
+    <div class="barra-soma-fixa" id="barraSomaFixa">
+      <div class="itens-somados" id="itensSomados">
+        <span class="titulo-soma">Itens somados:</span><br>
+        Nenhum item selecionado.
+      </div>
+      <div class="titulo-soma">Soma dos valores: <span id="ValorDaConta">0</span></div>
+      
+    </div>
+
+    <div class="DiaEHora">
+      <div class="agendamento">
+        <label class="SelecioneOdia">Selecione o dia:</label><br>
+        <input type="date" id="dataAgendamento" class="input-agendamento"><br><br>
+
+        <label for="horaAgendamento">Selecione o horário:</label><br>
+        <!-- troquei input time por select -->
+        <select id="horaAgendamento" class="input-agendamento"></select><br><br>
+        
+      </div>
+    </div>
+  </main>
+
+  <div class="instrucao"> 
+    <a href="../dados.html"><button Class="Confirmar">Confirmar</button></a><br>
+    
+  </div>
+
+  <footer class="rodapé">
+    <div class="letras-rp">
+      Espaço Amanda<br>
+      Unidade: Amazonas shopping
+    </div>
+  </footer>
+
+ <script src="interação3.js"></script>
+</body>
+</html>

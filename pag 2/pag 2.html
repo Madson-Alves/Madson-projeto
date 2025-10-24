@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços | Espaço Amanda</title>
+    <link rel="stylesheet" href="parte 2,1 corrigido.css" type="text/css">
+</head>
+<body>
+ <header id="cabeçalho">
+    <nav class="faixaRed">
+      <a href="../menu 4 responsivo.html"><img class="img" src="espaço amanda logo.jpg" height="65px" 
+        width="116px" "></a>
+      <div class="navmenumenor">  
+        <div class="linha1"></div>
+        <div class="linha2"></div>
+        <div class="linha3"></div>
+      </div>
+
+      <ul class="list">
+        <li><a href="../pag 1/pag 1.html">Cabelos</a></li>
+        <li><a href="pag 2.html">Mãos e pés</a></li>
+        <li><a href="../pag 3/pag 3.html">Pelos</a></li>
+        <li><a href="../pag 4/pag 4.html">Massagens e outros</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="container">
+    <div class="CaixaCheckbox">  
+      <h2>Selecione os serviços:</h2>
+      <div class="container-checkbox">
+        <label><input type="checkbox" id="serv16" value="32" class="valor-checkbox"> Manicure R$ 32</label><br>
+        <label><input type="checkbox" id="serv17" value="33" class="valor-checkbox"> Pedicure R$ 33</label><br>
+        <label><input type="checkbox" id="serv18" value="19" class="valor-checkbox"> Troca de esmalte R$ 19</label><br>
+        <label><input type="checkbox" id="serv19" value="35" class="valor-checkbox"> Hidratação para mãos R$ 35</label><br>
+        <label><input type="checkbox" id="serv20" value="250" class="valor-checkbox"> Alongamento de unha R$ 250</label><br>
+        <label><input type="checkbox" id="serv21" value="120" class="valor-checkbox"> Manutenção de unha R$ 120</label><br>
+        <label><input type="checkbox" id="serv22" value="130" class="valor-checkbox"> Blindagem em gel R$ 130</label><br>
+        <label><input type="checkbox" id="serv23" value="100" class="valor-checkbox"> Podologia simples R$ 100</label><br>
+      </div>
+    </div>
+
+    <div class="barra-soma-fixa" id="barraSomaFixa">
+      <div class="itens-somados" id="itensSomados">
+        <span class="titulo-soma">Itens somados:</span><br>
+        Nenhum item selecionado.
+      </div>
+      <div class="titulo-soma">Soma dos valores: <span id="ValorDaConta">0</span></div>
+      
+    </div>
+
+    <div class="DiaEHora">
+      <div class="agendamento">
+        <label class="SelecioneOdia">Selecione o dia:</label><br>
+        <input type="date" id="dataAgendamento" class="input-agendamento"><br><br>
+
+        <label for="horaAgendamento">Selecione o horário:</label><br>
+        <!-- troquei input time por select -->
+        <select id="horaAgendamento" class="input-agendamento"></select><br><br>
+        
+      </div>
+    </div>
+  </main>
+
+  <div class="instrucao"> 
+    <a href="../dados.html"><button Class="Confirmar">Confirmar</button></a><br>
+    
+  </div>
+
+  <footer class="rodapé">
+    <div class="letras-rp">
+      Espaço Amanda<br>
+      Unidade: Amazonas shopping
+    </div>
+  </footer>
+
+ <script src="interação2.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços | Espaço Amanda</title>
+    <link rel="stylesheet" href="parte 1,1 corrigido.css" type="text/css">
+</head>
+<body>
+ <header id="cabeçalho">
+    <nav class="faixaRed">
+      <a href="../menu 4 responsivo.html"><img class="img" src="espaço amanda logo.jpg" height="65px" 
+        width="116px" "></a>
+      <div class="navmenumenor">  
+        <div class="linha1"></div>
+        <div class="linha2"></div>
+        <div class="linha3"></div>
+      </div>
+
+      <ul class="list">
+        <li><a href="pag 1.html">Cabelos</a></li>
+        <li><a href="../pag 2/pag 2.html">Mãos e pés</a></li>
+        <li><a href="../pag 3/pag 3.html">Pelos</a></li>
+        <li><a href="../pag 4/pag 4.html">Massagens e outros</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="container">
+    <div class="CaixaCheckbox">  
+      <h2>Selecione os serviços:</h2>
+      <div class="container-checkbox">
+        <label><input type="checkbox" id="serv1" value="80" class="valor-checkbox"> Corte feminino 80 R$</label><br>
+        <label><input type="checkbox" id="serv2" value="150" class="valor-checkbox"> Corte especialista em cachos 150 R$</label><br>
+        <label><input type="checkbox" id="serv3" value="35" class="valor-checkbox"> Franja 35 R$</label><br>
+        <label><input type="checkbox" id="serv4" value="50" class="valor-checkbox"> Corte infantil(até 10 anos) 50 R$</label><br>
+        <label><input type="checkbox" id="serv5" value="50" class="valor-checkbox"> Escova cabelo a partir de 50 R$</label><br>
+        <label><input type="checkbox" id="serv6" value="100" class="valor-checkbox"> Escova cabelo com Mega Hair 100 R$</label><br>
+        <label><input type="checkbox" id="serv7" value="45" class="valor-checkbox"> Secagem 45 R$</label><br>
+        <label><input type="checkbox" id="serv8" value="50" class="valor-checkbox"> Filtragem cachos a partir de 50 R$</label><br>
+        <label><input type="checkbox" id="serv9" value="180" class="valor-checkbox"> Coloração a partir de 180 R$</label><br>
+        <label><input type="checkbox" id="serv10" value="450" class="valor-checkbox"> Mechas a partir de 450 R$</label><br>
+        <label><input type="checkbox" id="serv11" value="450" class="valor-checkbox"> Cabelos coloridos a partir de 450 R$</label><br>
+        <label><input type="checkbox" id="serv12" value="350" class="valor-checkbox"> Escova progressiva a partir de 350 R$</label><br>
+        <label><input type="checkbox" id="serv13" value="179" class="valor-checkbox"> Tratamento kerastase a partir de R$ 179</label><br>
+        <label><input type="checkbox" id="serv14" value="179" class="valor-checkbox"> Ritual cachos deva curi a partir de R$ 179</label><br>
+        <label><input type="checkbox" id="serv15" value="100" class="valor-checkbox"> Corte profissional especialista 100 R$</label><br>
+      </div>
+    </div>
+
+    <div class="barra-soma-fixa" id="barraSomaFixa">
+      <div class="itens-somados" id="itensSomados">
+        <span class="titulo-soma">Itens somados:</span><br>
+        Nenhum item selecionado.
+      </div>
+      <div class="titulo-soma">Soma dos valores: <span id="ValorDaConta">0</span></div>
+      
+    </div>
+
+    <div class="DiaEHora">
+      <div class="agendamento">
+        <label class="SelecioneOdia">Selecione o dia:</label><br>
+        <input type="date" id="dataAgendamento" class="input-agendamento"><br><br>
+
+        <label for="horaAgendamento">Selecione o horário:</label><br>
+        <!-- troquei input time por select -->
+        <select id="horaAgendamento" class="input-agendamento"></select><br><br>
+        
+      </div>
+    </div>
+  </main>
+
+  <div class="instrucao"> 
+    <a href="../dados.html"><button Class="Confirmar">Confirmar</button></a><br>
+    
+  </div>
+
+  <footer class="rodapé">
+    <div class="letras-rp">
+      Espaço Amanda<br>
+      Unidade: Amazonas shopping
+    </div>
+  </footer>
+
+ <script src="interação1.js"></script>
+</body>
+</html>
