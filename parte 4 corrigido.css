@@ -117,7 +117,7 @@ a:hover { opacity: 0.7; }
   background-size: contain;               /* mantém a imagem inteira */
   background-color: rgb(43, 40, 40);      /* cor para preencher "faixas" */
   width: 100%;                            /* 100% do fluxo, não 100vw */
-  min-height: 100dvh;                      /* garante ao menos 1 tela de altura */
+  min-height: 100vh;                      /* garante ao menos 1 tela de altura */
   display: flex;
   flex-direction: column;
   overflow: visible;                      /* deixar rolagem vertical natural */
@@ -262,6 +262,9 @@ a:hover { opacity: 0.7; }
   .letras { font-size: 4vh; margin-top: 4vh; }
 }
 
+@media (min-width:300px) and (min-height:540px) {
+  .letras { font-size: 4vh; margin-top: 4vh; }
+}
 /* ================= SEÇÃO COM BLOCOS ================= */
 /* Aqui havia várias causas de overflow:
    - width: 90vh (usa vh para largura → pode ultrapassar viewport em alguns layouts)
@@ -369,4 +372,3 @@ a:hover { opacity: 0.7; }
 .navmenumenor.ativa .linha3 { transform: rotate(-45deg) translate(0px, -17px); margin-top: -5.5vh; }
 
 /* comentário final: usar unidades relativas (vw, %) para larguras e evitar vh para largura */
-
