@@ -154,10 +154,12 @@ a:hover { opacity: 0.7; }
 @media (max-width:683px) and (min-height:1024px){
   .container { min-height: 62vh; margin-top: 20vh;}
 }
-@media (max-width:540px) and (min-height:720px){
+@media (min-width:540px) and (min-height:720px){
   .container { min-height: 62vh; margin-top: 20vh;}
 }
-
+@media (max-width:539px) and (min-height:720px){   /*width do meu celular?*/
+  .container { min-height: 42vh; margin-top: 20vh;}
+}
 @media (max-width:430px) and (min-height:932px){
   .container { min-height: 42vh; margin-top: 20vh;}
 }
@@ -170,16 +172,17 @@ a:hover { opacity: 0.7; }
 @media (max-width:412px) and (min-height:914px){
   .container { min-height: 42vh; margin-top: 20vh;}
 }
-@media (max-width:390px)  {
-  .letras { font-size: 4.7vh; margin-top: 3vh; }
+@media (max-width:390px) and (min-height:844px){
+  .container { min-height: 42vh; margin-top: 20vh;}
 }
 
-@media (max-width:376px){
-  .letras { font-size: 4vh; margin-top: 9vh; }
+@media (max-width:375px) and (min-height:667px){
+  .container { min-height: 42vh; margin-top: 20vh;}
 }
-@media (max-width:360px)  {
-  .letras { font-size: 4vh; margin-top: 6vh; }
+@media (max-width:360px) and (min-height:740px){
+  .container { min-height: 42vh; margin-top: 20vh;}
 }
+
 @media (max-width:344px) and (min-height:882px){
   .container { min-height: 32vh; margin-top: 20vh;}
 }
@@ -229,9 +232,13 @@ a:hover { opacity: 0.7; }
 @media (max-width:683px) and (min-height:1024px) {
   .letras { font-size: 6.5vh; margin-top: 7vh; }
 }
-@media (max-width:540px) and (min-height:720px) {
+@media (min-width:540px) and (min-height:720px) {
   .letras { font-size: 7vh; margin-top: 9vh; }
 }
+@media (max-width:539px) and (min-height:720px) {    /* width do meu celular? */
+  .letras { font-size: 5vh; margin-top: 9vh; }
+}
+
 
 @media (max-width:430px) and (min-height:932px) {
   .letras { font-size: 4.7vh; margin-top: 3vh; }
@@ -360,6 +367,5 @@ a:hover { opacity: 0.7; }
 .navmenumenor.ativa .linha1 { transform: rotate(45deg) translate(-8px, 8px); margin-top: 6vh; }
 .navmenumenor.ativa .linha2 { opacity: 0; margin-top: 5vh; }
 .navmenumenor.ativa .linha3 { transform: rotate(-45deg) translate(0px, -17px); margin-top: -5.5vh; }
-
 
 /* comentário final: usar unidades relativas (vw, %) para larguras e evitar vh para largura */
