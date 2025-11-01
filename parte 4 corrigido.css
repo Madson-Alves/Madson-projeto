@@ -132,7 +132,9 @@ a:hover { opacity: 0.7; }
   .container { min-height: 62vh; margin-top: 20vh;}
 }
 
-
+@media (min-width:1176px) and (min-height:630px){
+  .container { min-height: 92vh; margin-top: 20vh;}
+}
 
 @media (max-width:1024px) and (min-height:1366px){
   .container { min-height: 62vh; margin-top: 20vh;}
@@ -195,9 +197,7 @@ a:hover { opacity: 0.7; }
   .container { min-height: 50vh; margin-top: 20vh;}
 }
 
-@media (min-width:1176px) and (min-height:630px){
-  .container { min-height: 92vh; margin-top: 20vh;}
-}
+
 /* ================= TEXTO PRINCIPAL ================= */
 .letras {
   position: relative;
@@ -387,3 +387,4 @@ a:hover { opacity: 0.7; }
 .navmenumenor.ativa .linha3 { transform: rotate(-45deg) translate(0px, -17px); margin-top: -5.5vh; }
 
 /* comentário final: usar unidades re
+
